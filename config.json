@@ -25,9 +25,9 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61588403646276",
-    "61585772322631",
-    "61576599896861"
+    "61584866024929",
+    "",
+    ""
   ],
   "developer": [
     "61588403646276",
@@ -79,7 +79,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "X69X BOT V3",
+  "nickNameBot": "ꪶℜaͥkiͣbͫ༆çtg ",
   "prefix": ")",
   "database": {
     "type": "mongodb",
