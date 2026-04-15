@@ -1,101 +1,13 @@
-concurrency: [
-    {
-        "key": "dbln",
-        "value": "%7B%2261585678772965%22%3A%22qAtRj3H3%22%7D",
-        "domain": "facebook.com",
-        "path": "/login/device-based/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.734Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "datr",
-        "value": "GxDeafUZJ-dDcRXd5ButStJs",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "sb",
-        "value": "GxDeaXbKD7Otj0Udt6PMM-oM",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "vpd",
-        "value": "v1%3B832x424x1.7000000476837158",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "c_user",
-        "value": "61585678772965",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "xs",
-        "value": "45%3AvDIDnh4Ghm9gdg%3A2%3A1776160999%3A-1%3A-1",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "locale",
-        "value": "en_GB",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "pas",
-        "value": "61584866024929%3AKznUs4t0au%2C61585678772965%3A1M8cRyifAw",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "fr",
-        "value": "0AYa9UsxUC831sxBv.AWeWWnz5dnKT8Xyd8csGl1zAE9EdxrwNQve_jjBzTRXLFCIyM6w.Bp3hAb..AAA.0.0.Bp3lpF.AWcHFbrbvosp-rGn3aFAACzFjY4",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "wl_cbv",
-        "value": "v2%3Bclient_version%3A3143%3Btimestamp%3A1776179781",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    },
-    {
-        "key": "fbl_st",
-        "value": "100728925%3BT%3A29602996",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2026-04-14T15:16:23.735Z",
-        "lastAccessed": "2026-04-14T15:16:23.735Z"
-    }
-]
+concurrency: module.exports = {  
+  config: {  
+    name: "command_name",                // 🔹 Command Name  
+    version: "1.0",                      // 🔸 Version  
+    author:"Azadx69x",                   // 👨‍💻 Developer  
+    role: 6,                             // 🔐 full Access system
+    usePrefix: true,                     // ⛓️ prefix Requirement  
+    description: "Command Description",   // 📝 Functionality  
+    guide: "Usage Guide",                // 📘 Command Syntax  
+    category: "Utility",                 // 🧰 Function Category  
+    cooldowns: 3                         // ⏳ Execution Delay (seconds)  
+  }  
+};
