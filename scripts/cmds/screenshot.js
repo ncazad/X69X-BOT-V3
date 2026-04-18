@@ -19,7 +19,7 @@ module.exports = {
     }
 
     let url = encodeURIComponent(args[0]);
-    const api = `https://azadx69x-all-apis-top.vercel.app/api/screenshot?url=${url}`;
+    const api = `https://azadx69x.is-a.dev/api/screenshot?url=${url}`;
 
     try {
 
